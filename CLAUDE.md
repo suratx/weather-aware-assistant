@@ -22,14 +22,14 @@ A CLI personal assistant that reads today's events from `calendar.json`, fetches
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Run the assistant
-python src/main.py --location "Istanbul"
+# Run the assistant (from project root)
+python3 src/main.py
 
 # Run all tests
-pytest tests/
+python3 -m pytest tests/
 
 # Run a single test file
-pytest tests/test_weather_client.py
+python3 -m pytest tests/test_weather_client.py
 ```
 
 ## Architecture
