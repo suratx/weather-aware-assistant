@@ -8,7 +8,7 @@ A CLI personal assistant that reads today's events from `calendar.json`, fetches
 
 ## Tech Stack
 
-- Python 3.11+
+- Python 3.9+ (machine runs 3.9.6 — use `Optional[X]` from `typing`, not `X | None`)
 - OpenWeather API for weather data
 - Anthropic Claude API (`claude-sonnet` model) for advice generation
 - pytest for testing
